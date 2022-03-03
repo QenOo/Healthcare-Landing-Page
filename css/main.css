@@ -1,6 +1,6 @@
 :root {
-  --main-color: #32A28A;
-  --secondary--color: #FF5E20;
+  --main-color: rgb(50, 164, 139);
+  --main-color-rgb: 50, 164, 139;
 }
 
 body {
@@ -19,6 +19,12 @@ h6,
   font-weight: 700;
 }
 
+.main-button {
+  background-color: var(--main-color) !important;
+  border: none !important;
+  color: var(--bs-white);
+}
+
 nav {
   background-color: var(--main-color);
 }
@@ -30,5 +36,56 @@ nav .main-text {
 nav a {
   font-size: 1.2rem;
   font-family: 'Noto Naskh Arabic', sans-serif;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#32a48b), to(rgba(255, 255, 255, 0.678))), url("../imgs/pexels-vidal-balielo-jr-1250655 (1).jpg");
+  background: linear-gradient(to bottom, #32a48b, rgba(255, 255, 255, 0.678)), url("../imgs/pexels-vidal-balielo-jr-1250655 (1).jpg");
+  min-height: calc(100vh - 72px);
+  background-position: center;
+  background-size: cover;
+}
+
+header .booking {
+  color: var(--main-color);
+  max-width: 400px;
+  padding: 40px 30px;
+  border-radius: 5px;
+  margin-top: 4rem;
+}
+
+header .booking input {
+  display: block;
+  min-width: 100%;
+  background-color: rgba(var(--main-color-rgb), 0.1);
+  color: var(--main-color);
+  border: none;
+  margin: 25px 0;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+header .booking input::-webkit-input-placeholder {
+  color: var(--main-color);
+}
+
+header .booking input:-ms-input-placeholder {
+  color: var(--main-color);
+}
+
+header .booking input::-ms-input-placeholder {
+  color: var(--main-color);
+}
+
+header .booking input::placeholder {
+  color: var(--main-color);
+}
+
+header .booking input::-ms-input-placeholder {
+  color: var(--main-color);
+}
+
+header .booking input:focus {
+  outline: 2px solid var(--main-color);
 }
 /*# sourceMappingURL=main.css.map */

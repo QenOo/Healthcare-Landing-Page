@@ -1,6 +1,6 @@
 :root {
-    --main-color: #32A28A;
-    --secondary--color: #FF5E20;
+    --main-color: rgb(50, 164, 139);
+    --main-color-rgb: 50, 164, 139;
 }
 
 body {
@@ -23,6 +23,13 @@ h6,
     font-weight: 700;
 }
 
+.main-button {
+    background-color: var(--main-color) !important;
+    border: none !important;
+    color: var(--bs-white);
+}
+
+// Navbar
 nav {
     background-color: var(--main-color);
 
@@ -36,3 +43,52 @@ nav {
             sans-serif;
     }
 }
+
+// Navbar
+
+// header
+header {
+    background: linear-gradient(to bottom, rgb(50, 164, 139), rgba(255, 255, 255, 0.678)),
+        url('../imgs/pexels-vidal-balielo-jr-1250655\ \(1\).jpg');
+    min-height: calc(100vh - 72px);
+    background-position: center;
+    background-size: cover;
+
+    .booking {
+        color: var(--main-color);
+        max-width: 400px;
+        padding: 40px 30px;
+        border-radius: 5px;
+        margin-top: 4rem;
+
+        input {
+            display: block;
+            min-width: 100%;
+            background-color: rgba(var(--main-color-rgb), .1);
+            color: var(--main-color);
+            border: none;
+            margin: 25px 0;
+            border-radius: 7px;
+            padding: 20px;
+
+
+            &::placeholder {
+                color: var(--main-color);
+            }
+
+            &::-ms-input-placeholder {
+                color: var(--main-color);
+            }
+
+            &:focus {
+                outline: 2px solid var(--main-color);
+
+            }
+        }
+
+
+
+    }
+}
+
+// header
