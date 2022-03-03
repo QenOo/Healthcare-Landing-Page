@@ -1,5 +1,6 @@
-html {
-  font-size: 62.5%;
+:root {
+  --main-color: #32A28A;
+  --secondary--color: #FF5E20;
 }
 
 body {
@@ -12,8 +13,22 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.main-text {
   font-family: 'Noto Sans Arabic', sans-serif;
   font-weight: 700;
+}
+
+nav {
+  background-color: var(--main-color);
+}
+
+nav .main-text {
+  font-size: 2.5rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+  font-family: 'Noto Naskh Arabic', sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
