@@ -197,3 +197,28 @@ header {
 }
 
 // services
+
+// why-choose-us
+.why-choose-us {
+    ul {
+        li {
+            display: flex;
+            margin: 30px 0;
+
+            .icon {
+                width: 120px;
+                height: 100px;
+                font-size: 30px;
+                box-shadow: 0px 10px 20px 0px #adbdb238;
+                border-radius: 10px;
+                color: var(--main-color);
+                margin-left: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+// why-choose-us

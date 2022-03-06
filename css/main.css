@@ -180,4 +180,31 @@ header .booking input:focus {
 .services__card a {
   color: var(--main-color);
 }
+
+.why-choose-us ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0;
+}
+
+.why-choose-us ul li .icon {
+  width: 120px;
+  height: 100px;
+  font-size: 30px;
+  -webkit-box-shadow: 0px 10px 20px 0px #adbdb238;
+          box-shadow: 0px 10px 20px 0px #adbdb238;
+  border-radius: 10px;
+  color: var(--main-color);
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=main.css.map */
