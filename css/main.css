@@ -74,7 +74,6 @@ nav a {
 header {
   background: -webkit-gradient(linear, left top, left bottom, from(#32a48b), to(rgba(255, 255, 255, 0.678))), url("../imgs/pexels-vidal-balielo-jr-1250655_1.webp");
   background: linear-gradient(to bottom, #32a48b, rgba(255, 255, 255, 0.678)), url("../imgs/pexels-vidal-balielo-jr-1250655_1.webp");
-  min-height: calc(100vh - 72px);
   background-position: center;
   background-size: cover;
 }
@@ -85,6 +84,7 @@ header .booking {
   padding: 40px 30px;
   border-radius: 5px;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 header .booking input {
@@ -128,8 +128,6 @@ header .booking input:focus {
 }
 
 .services__parg {
-  min-width: 18rem;
-  max-width: 50%;
   line-height: 1.9;
   margin-bottom: 50px;
 }

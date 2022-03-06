@@ -90,7 +90,7 @@ nav {
 header {
     background: linear-gradient(to bottom, rgb(50, 164, 139), rgba(255, 255, 255, 0.678)),
         url('../imgs/pexels-vidal-balielo-jr-1250655_1.webp');
-    min-height: calc(100vh - 72px);
+    // min-height: calc(100vh - 86px);
     background-position: center;
     background-size: cover;
 
@@ -100,6 +100,7 @@ header {
         padding: 40px 30px;
         border-radius: 5px;
         margin-top: 4rem;
+        margin-bottom: 4rem;
 
         input {
             display: block;
@@ -146,8 +147,8 @@ header {
 .services {
 
     &__parg {
-        min-width: 18rem;
-        max-width: 50%;
+        // min-width: 18rem;
+        // max-width: 50%;
         line-height: 1.9;
         margin-bottom: 50px;
     }
