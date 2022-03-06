@@ -181,6 +181,10 @@ header .booking input:focus {
   color: var(--main-color);
 }
 
+.why-choose-us .details h4 {
+  padding-top: 4px;
+}
+
 .why-choose-us ul li {
   display: -webkit-box;
   display: -ms-flexbox;

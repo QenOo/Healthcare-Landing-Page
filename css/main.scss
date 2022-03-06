@@ -200,6 +200,12 @@ header {
 
 // why-choose-us
 .why-choose-us {
+    .details {
+        h4 {
+            padding-top: 4px;
+        }
+    }
+
     ul {
         li {
             display: flex;
