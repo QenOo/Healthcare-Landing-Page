@@ -89,7 +89,7 @@ header .booking {
 
 header .booking input {
   display: block;
-  min-width: 100%;
+  width: 100%;
   background-color: rgba(var(--main-color-rgb), 0.1);
   color: var(--main-color);
   border: none;
@@ -189,26 +189,45 @@ header .booking input:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 30px 0;
-}
-
-.why-choose-us ul li .icon {
-  width: 120px;
-  height: 100px;
-  font-size: 30px;
-  -webkit-box-shadow: 0px 10px 20px 0px #adbdb238;
-          box-shadow: 0px 10px 20px 0px #adbdb238;
-  border-radius: 10px;
-  color: var(--main-color);
-  margin-left: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 30px 0;
+}
+
+.why-choose-us ul li .icon {
+  padding: 30px;
+  font-size: 30px;
+  -webkit-box-shadow: 0px 10px 20px 0px #adbdb238;
+          box-shadow: 0px 10px 20px 0px #adbdb238;
+  border-radius: 10px;
+  color: var(--main-color);
+  margin-left: 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .why-choose-us ul li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .why-choose-us ul li .icon {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
