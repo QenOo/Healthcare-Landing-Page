@@ -19,6 +19,10 @@ h6,
   font-weight: 700;
 }
 
+.main-text {
+  font-size: 2.5rem;
+}
+
 .main-button {
   background-color: var(--main-color) !important;
   border: none !important;
@@ -69,13 +73,8 @@ nav {
   background-color: var(--main-color);
 }
 
-nav .main-text {
-  font-size: 2.5rem;
-}
-
 nav a {
   font-size: 1.2rem;
-  font-family: 'Noto Naskh Arabic', sans-serif;
 }
 
 header {
@@ -286,5 +285,32 @@ header .booking input:focus {
 
 .our-doctors__card .body {
   margin: 25px 0;
+}
+
+.footer__top {
+  padding: 40px 0;
+  background-color: rgba(var(--main-color-rgb), 0.2);
+}
+
+.footer__top a {
+  color: var(--main-color);
+}
+
+@media (max-width: 767px) {
+  .footer__top {
+    text-align: center;
+  }
+}
+
+.footer__top ul {
+  margin-bottom: 60px;
+}
+
+.footer__bottom {
+  background-color: var(--main-color);
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 0;
 }
 /*# sourceMappingURL=main.css.map */
